@@ -652,7 +652,7 @@ html.has-cursor * {
   translate: 0 -50%;
   z-index: 60;
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* inline axis is vertical in vertical-rl */
   align-items: center;
   gap: 1rem;
   writing-mode: vertical-rl;
